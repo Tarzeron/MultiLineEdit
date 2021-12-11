@@ -1,0 +1,15 @@
+syntax: regexp
+.idea/*
+syntax: glob
+CMake/*
+cmake-build-debug/
+bin/EditorData/GameSettings.xml
+
+AndroidGradle/*
+android/build/*
+android/**/build/*
+android/.*/*
+android/**/.*/*
+android/**/assets/*
+android/local.properties
+**.jar
